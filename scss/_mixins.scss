@@ -1,0 +1,54 @@
+@mixin flex($jc: center, $ai: center, $fw: nowrap) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap: $fw;
+}
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin wihi ($wid:100%, $hei:100vh) {
+    width: $wid;
+    min-height: $hei;
+}
+
+%wihi{
+    width: 100%;
+    min-height: 100vh;
+}
+
+@mixin button ($pad: 10px 20px, $br: 8px, $bgc: $darkgreen, $col: $lightgreen, $tt: uppercase) {
+    padding: $pad;
+    border-radius: $br;
+    background-color: $bgc;
+    color: $col;
+    text-decoration: $tt;
+}
+
+%button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: $darkgreen;
+    color: $lightgreen;
+    text-transform: uppercase;
+}
+
+@mixin boxicon{
+    background-image: linear-gradient(#f7f2ed, #fefdfc);
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+
+.bg-linear{
+    background-image: linear-gradient(#f7f2ed, #fefdfc);
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+
+

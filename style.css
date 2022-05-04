@@ -1,0 +1,360 @@
+@charset "UTF-8";
+section#welcome, section#welcome .right-welcome .explore-welcome, footer#footer, .filter-cueva, .calender-picon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-linear {
+  background-image: linear-gradient(#f7f2ed, #fefdfc);
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #545a40;
+  text-decoration: underline;
+}
+
+body {
+  line-height: 1.2rem;
+}
+
+h2 {
+  padding: 40px 0;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #545a40;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #545a40;
+}
+
+img {
+  width: 100%;
+}
+
+header#header {
+  width: 100%;
+  min-height: 12vh;
+  background-color: #f7f2ed;
+  color: #545a40;
+}
+
+header#header .bi-list {
+  font-size: 3rem;
+}
+
+header#header .bi-person {
+  background-color: #748c1b;
+  color: #f7f2ed;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+
+header#header #language {
+  border-radius: 8px;
+  color: #545a40;
+}
+
+section#banner {
+  background: url(../assets/img/banner-photo.jpg) no-repeat center center/cover;
+  width: 100%;
+  min-height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+
+section#banner .sec-reservar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100%;
+  min-height: 10vh;
+  background-color: #748c1b;
+  color: #f7f2ed !important;
+}
+
+section#banner .sec-reservar span {
+  color: #545a40;
+}
+
+section#banner .select {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+section#banner .data {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+section#banner .data-entrada[type=”date”] {
+  appearance: none;
+  color: #1D1D1D;
+  font-family: “Helvetica”, arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #ECF0F1;
+  background: #ECF0F1;
+  padding: 4px;
+  display: inline-block;
+  visibility: visible;
+  width: 140px;
+}
+
+section#banner .form-date__input[type=”date”]:focus {
+  color: #495057;
+  background-color: #FFFFFF;
+  border-color: #80BDFF;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+section#welcome {
+  width: 100%;
+  min-height: 100vh;
+}
+
+section#welcome .left-welcome .enjoy {
+  width: 100%;
+  min-height: 55vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section#welcome .left-welcome .enjoy article {
+  text-align: center;
+}
+
+section#welcome .left-welcome .enjoy i, section#welcome .left-welcome .enjoy p {
+  font-size: 2rem;
+}
+
+section#welcome .left-welcome .enjoy i {
+  display: inline-block;
+  color: #545a40;
+  margin-bottom: 25px;
+}
+
+section#welcome .left-welcome .enjoy p {
+  line-height: 3rem;
+}
+
+section#welcome .left-welcome .enjoy .title-enjoy span {
+  color: #748c1b;
+}
+
+@media screen and (max-width: 768px) {
+  section#welcome .right-welcome {
+    text-align: center;
+  }
+}
+
+section#welcome .right-welcome .title-welcome {
+  min-height: 30vh;
+}
+
+section#welcome .right-welcome .title-welcome span {
+  color: #748c1b;
+}
+
+section#welcome .right-welcome .carousel-welcome {
+  width: 100%;
+  min-height: 40vh;
+}
+
+section#welcome .right-welcome .explore-welcome {
+  min-height: 30vh;
+  width: 100%;
+  background-color: #748c1b;
+  line-height: 2rem;
+  letter-spacing: 0.5px;
+}
+
+section#welcome .right-welcome .explore-welcome p {
+  color: #f7f2ed;
+}
+
+section#etorno h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+section#etorno img {
+  width: 100%;
+  max-height: 80vh;
+}
+
+section#etorno .etorno-arti {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+section#etorno .etorno-arti article {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+section#etorno .etorno-arti article i {
+  position: absolute;
+  top: -50px;
+  background-color: #748c1b;
+  color: #f7f2ed;
+  width: 100px;
+  height: 100px;
+  display: inline-block !important;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+  font-size: 2.5rem;
+}
+
+section#etorno .etorno-arti article .etorno-content {
+  padding: 100px 20px 20px;
+}
+
+#myBtn {
+  display: block;
+  /* Hidden by default */
+  position: relative;
+  /* Fixed/sticky position */
+  bottom: 60px;
+  /* Place the button at the bottom of the page */
+  right: 60px;
+  /* Place the button 30px from the right */
+  z-index: 9999;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #f7f2ed;
+  /* Set a background color */
+  color: #545a40;
+  /* Text color */
+  border: 2px solid #545a40;
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 8px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #545a40;
+  /* Add a dark-grey background on hover */
+  color: #f7f2ed;
+}
+
+main#index #section-three {
+  width: 100%;
+  min-height: 100vh;
+}
+
+main#index #section-three .mapa {
+  border: 2px solid #9eaf5f;
+}
+
+section#cuevapicon {
+  background-color: #f7f2ed;
+}
+
+footer#footer {
+  width: 100%;
+  min-height: 117px;
+  color: #F7F2ED;
+  background-image: linear-gradient(#a58f80, #545a40);
+}
+
+footer#footer ul {
+  list-style-type: none;
+  justify-content: center;
+}
+
+footer#footer small {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.filter-cueva {
+  gap: 50px;
+}
+
+.icons-picon {
+  flex-wrap: wrap;
+}
+
+.icons-picon article {
+  text-align: center;
+  width: 100px;
+}
+
+.calender-picon {
+  flex-direction: column;
+  width: 395px;
+  min-height: 280px;
+  background-color: #f7f2ed;
+  border-radius: 25px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 50px;
+}
+
+.calender-picon .pic-header {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.calender-picon .days {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.calender-picon .dates {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,624 @@
+footer#footer .footer-up .recencias, main#home section#welcome, main#home section#welcome .right-welcome .explore-welcome, main#cuevas .filter-cueva, main#cuevas #cuevapicon .calender-picon, main#cuevas #cuevacerro .calender-cerro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-linear {
+  background-image: linear-gradient(#f7f2ed, #fefdfc);
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #545a40;
+  text-decoration: underline;
+}
+
+body {
+  line-height: 1.2rem;
+}
+
+main {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px;
+  color: #545a40;
+  text-transform: uppercase;
+}
+
+h2 span {
+  color: #748c1b;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+  text-transform: uppercase;
+  color: #545a40;
+}
+
+h3 span {
+  color: #748c1b;
+}
+
+p {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #545a40;
+  margin: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+header#header {
+  width: 100%;
+  min-height: 12vh;
+  background-color: #f7f2ed;
+}
+
+header#header a.nav-link {
+  color: #545a40;
+  font-weight: bold;
+}
+
+header#header .logo {
+  width: 100%;
+}
+
+header#header .bi-person {
+  background-color: #748c1b;
+  color: #f7f2ed;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  font-size: 1rem;
+  box-shadow: none;
+}
+
+header#header #language {
+  border-radius: 6px;
+  color: #545a40;
+  background-color: #f7f2ed;
+}
+
+section#reservar {
+  background-color: #748c1b;
+  padding: 10px;
+}
+
+section#reservar .reservar-container .text-reservar {
+  text-transform: uppercase;
+  color: #545a40;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+section#reservar .reservar-container .text-reservar span {
+  color: #f7f2ed;
+}
+
+section#reservar .reservar-container .dates {
+  color: #545a40;
+}
+
+section#reservar .reservar-container .dates input {
+  border: none;
+  background-color: #f7f2ed;
+  color: #545a40;
+}
+
+section#reservar .reservar-container .dates .container-entrada, section#reservar .reservar-container .dates .container-salida {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 31px;
+  margin: 10px;
+  border: 1px solid #545a40;
+  border-radius: 6px;
+  background-color: #f7f2ed;
+  justify-content: space-around;
+}
+
+section#reservar .reservar-container .dates .data-entrada {
+  color: #545a40;
+}
+
+section#reservar .reservar-container .ocupation {
+  width: 120px;
+  height: 120px;
+  padding: 15px;
+  background-color: #545a40;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#reservar .reservar-container .ocupation p {
+  color: #f7f2ed;
+  text-transform: uppercase;
+}
+
+section#reservar .reservar-container .ocupation select {
+  width: 100%;
+  border-radius: 6px;
+  color: #545a40;
+  background-color: #f7f2ed;
+}
+
+section#reservar .reservar-container .container-reservar {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+section#reservar .reservar-container .container-reservar #reservar-banner {
+  width: 146px;
+  height: 31px;
+  background-color: #545a40;
+  color: #f7f2ed;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+}
+
+section#a-reservation a {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #748c1b;
+  color: #f7f2ed;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 6px 6px 0 0;
+  position: fixed;
+  display: block;
+  z-index: 99;
+  bottom: 0;
+  outline: none;
+  letter-spacing: 1.2rem;
+}
+
+section#a-reservation a:hover {
+  text-decoration: none;
+}
+
+footer#footer .footer-up {
+  background-color: #f7f2ed;
+  color: #545a40;
+}
+
+footer#footer .footer-up .recencias {
+  padding: 20px;
+}
+
+footer#footer .footer-up .contact-dates {
+  padding: 20px;
+  font-size: 20px;
+}
+
+footer#footer .footer-up .contact-dates i {
+  margin-right: 45px;
+}
+
+footer#footer .footer-up .social-media {
+  font-size: 50px;
+  color: #545a40;
+  text-align: start;
+  line-height: 2REM;
+}
+
+footer#footer .footer-up .social-media p {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer#footer .footer-up .social-media .social-icons {
+  margin: 0 20px;
+}
+
+footer#footer .footer-down {
+  padding: 30px;
+  flex-direction: column;
+  min-height: 117px;
+  color: #F7F2ED;
+  background-image: linear-gradient(#a58f80, #545a40);
+}
+
+footer#footer .footer-down ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  line-height: 2rem;
+  text-decoration: underline;
+}
+
+footer#footer .footer-down small {
+  margin-top: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  footer#footer {
+    padding-bottom: 56px;
+  }
+}
+
+#myBtn {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: 2px #545a40 solid;
+  outline: none;
+  background-color: #f7f2ed;
+  color: #545a40;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #545a40;
+  color: #f7f2ed;
+}
+
+main#home section#banner {
+  background: url(../assets/img/banner-photo.jpg) no-repeat center center/cover;
+  width: 100%;
+  min-height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+
+main#home section#welcome {
+  width: 100%;
+  min-height: 100vh;
+}
+
+main#home section#welcome .left-welcome {
+  height: 45vh;
+}
+
+main#home section#welcome .left-welcome .enjoy {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main#home section#welcome .left-welcome .enjoy article {
+  text-align: center;
+}
+
+main#home section#welcome .left-welcome .enjoy p {
+  font-size: 1.5rem;
+}
+
+main#home section#welcome .left-welcome .enjoy i {
+  font-size: 2rem;
+  display: inline-block;
+  color: #545a40;
+  margin-bottom: 5px;
+}
+
+main#home section#welcome .left-welcome .enjoy p {
+  line-height: 2rem;
+}
+
+main#home section#welcome .left-welcome .enjoy .title-enjoy span {
+  color: #748c1b;
+}
+
+main#home section#welcome .right-welcome .title-welcome h2 span {
+  color: #748c1b;
+}
+
+main#home section#welcome .right-welcome .carousel-welcome {
+  width: 100%;
+  min-height: 40vh;
+  height: 40vh;
+}
+
+main#home section#welcome .right-welcome .carousel-welcome img {
+  width: 100%;
+  height: 100%;
+}
+
+main#home section#welcome .right-welcome .explore-welcome {
+  min-height: 30vh;
+  height: 30vh;
+  width: 100%;
+  background-color: #748c1b;
+  line-height: 2rem;
+  letter-spacing: 0.5px;
+}
+
+main#home section#welcome .right-welcome .explore-welcome p {
+  color: #f7f2ed;
+}
+
+main#home section#etorno h2 {
+  margin: 20px 0 70px;
+}
+
+main#home section#etorno .etorno-arti {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+main#home section#etorno .etorno-arti article {
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+main#home section#etorno .etorno-arti article h4, main#home section#etorno .etorno-arti article p {
+  text-align: center;
+}
+
+main#home section#etorno .etorno-arti article i {
+  position: absolute;
+  top: -50px;
+  background-color: #748c1b;
+  color: #f7f2ed;
+  width: 100px;
+  height: 100px;
+  display: inline-block !important;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+  font-size: 2.5rem;
+}
+
+main#home section#etorno .etorno-arti article .etorno-content {
+  padding: 100px 20px 20px;
+}
+
+main#home #section-three {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+main#home #section-three .mapa {
+  border: 2px solid #9eaf5f;
+}
+
+main#cuevas .filter-cueva {
+  gap: 150px;
+  margin: 30px 0;
+}
+
+main#cuevas .filter-cueva button {
+  border: none;
+  background-color: #f7f2ed;
+  border: 1px solid #545a40;
+  border-radius: 6px;
+  color: #545a40;
+}
+
+main#cuevas #cuevapicon {
+  background-color: #f7f2ed;
+}
+
+main#cuevas #cuevapicon .icons-picon {
+  flex-wrap: wrap;
+}
+
+main#cuevas #cuevapicon .icons-picon article {
+  text-align: center;
+}
+
+main#cuevas #cuevapicon .icons-picon article i img {
+  width: 120px;
+  height: 120px;
+  font-size: 1rem;
+  display: inline-block;
+  color: #545a40;
+  margin-bottom: 5px;
+}
+
+main#cuevas #cuevapicon .disponibilidad section#cuevapicon {
+  background-color: #f7f2ed;
+}
+
+main#cuevas #cuevapicon .disponibilidad span {
+  color: #748c1b;
+}
+
+main#cuevas #cuevapicon .precios .temporada {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+main#cuevas #cuevapicon .precios .precio {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  main#cuevas #cuevapicon #cuevacerro article img, main#cuevas #cuevapicon #cuevapicon article img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+main#cuevas #cuevapicon .calender-picon {
+  flex-direction: column;
+  width: 395px;
+  min-height: 280px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 50px;
+}
+
+main#cuevas #cuevapicon .calender-picon .pic-header {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+main#cuevas #cuevapicon .calender-picon .days {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+main#cuevas #cuevapicon .calender-picon .dates {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+main#cuevas #cuevacerro .icons-cerro {
+  flex-wrap: wrap;
+}
+
+main#cuevas #cuevacerro .icons-cerro article {
+  text-align: center;
+}
+
+main#cuevas #cuevacerro .icons-cerro article i img {
+  width: 120px;
+  height: 120px;
+  font-size: 1rem;
+  display: inline-block;
+  color: #545a40;
+  margin-bottom: 5px;
+}
+
+main#cuevas #cuevacerro .disponibilidad section#cuevacerro {
+  background-color: #f7f2ed;
+}
+
+main#cuevas #cuevacerro .disponibilidad span {
+  color: #748c1b;
+}
+
+main#cuevas #cuevacerro .precios .temporada {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+main#cuevas #cuevacerro .precios .precio {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  main#cuevas #cuevacerro #cuevacerro article img, main#cuevas #cuevacerro #cuevacerro article img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+main#cuevas #cuevacerro .calender-cerro {
+  flex-direction: column;
+  width: 395px;
+  min-height: 280px;
+  background-color: #f7f2ed;
+  border-radius: 25px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 50px;
+}
+
+main#cuevas #cuevacerro .calender-cerro .pic-header {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+main#cuevas #cuevacerro .calender-cerro .days {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+main#cuevas #cuevacerro .calender-cerro .dates {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+main#succes .text {
+  width: 100%;
+  min-height: 4e0vh;
+}
+
+main#reservation .borderreservar {
+  background-color: #f7f2ed;
+  border: 1px solid #545a40;
+  border-radius: 6px;
+}
+
+main#reservation .borderreservar .pers-dates {
+  line-height: 2rem;
+}
+
+main#reservation .borderreservar .pers-dates input {
+  background-color: #f7f2ed;
+  border: 1px solid #545a40;
+  border-radius: 6px;
+  margin: 10px 0 10px 20px;
+}
+
+main#reservation .reservation-dates {
+  background-color: #f7f2ed;
+  border: 1px solid #545a40;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+main#reservation .reservation-dates hr {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+}
+
+main#reservation .reservation-dates button {
+  margin: 20px 0;
+}

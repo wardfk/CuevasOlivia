@@ -1,0 +1,733 @@
+section#login-modal .container-modal, main#home section#welcome, main#home section#welcome .right-welcome .explore-welcome, main#home section#reviews-contact .recencias, main#cuevas .filter-cueva, main#cuevas #cuevapicon .calender-picon .marker-avia, main#cuevas #cuevapicon .calender-picon .marker-avia .available, main#cuevas #cuevapicon .calender-picon .marker-avia .not-available {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-linear {
+  background-image: linear-gradient(#f7f2ed, #fefdfc);
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #545a40;
+  text-decoration: underline;
+}
+
+body {
+  line-height: 1.2rem;
+}
+
+main {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px;
+  color: #545a40;
+  text-transform: uppercase;
+}
+
+h2 span {
+  color: #748c1b;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+  text-transform: uppercase;
+  color: #545a40;
+}
+
+h3 span {
+  color: #748c1b;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 20px;
+  text-transform: uppercase;
+  color: #545a40;
+}
+
+p {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #545a40;
+  margin: 20px;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+header#header {
+  width: 100%;
+  min-height: 12vh;
+  background-color: #f7f2ed;
+}
+
+header#header a.nav-link {
+  color: #545a40;
+  font-weight: bold;
+}
+
+header#header .navbar-brand {
+  width: 75px;
+}
+
+header#header .button-login {
+  border: none;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+header#header .button-login .bi-person {
+  background-color: #748c1b;
+  color: #f7f2ed;
+  width: 25px;
+  height: 25px;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  font-size: 1rem;
+  box-shadow: none;
+}
+
+header#header #language {
+  border-radius: 6px;
+  color: #545a40;
+  background-color: #f7f2ed;
+}
+
+section#reservar {
+  position: sticky;
+  top: 0;
+  background-color: #748c1b;
+  padding: 5px;
+}
+
+section#reservar .reservar-container .text-reservar {
+  text-transform: uppercase;
+  color: #545a40;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+section#reservar .reservar-container .text-reservar span {
+  color: #f7f2ed;
+}
+
+section#reservar .reservar-container .dates {
+  color: #545a40;
+  margin: 0;
+  padding: 0;
+}
+
+section#reservar .reservar-container .dates input {
+  border: none;
+  background-color: #f7f2ed;
+  color: #545a40;
+}
+
+section#reservar .reservar-container .dates .container-entrada, section#reservar .reservar-container .dates .container-salida {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 31px;
+  margin: 10px;
+  border: 1px solid #545a40;
+  border-radius: 6px;
+  background-color: #f7f2ed;
+  justify-content: space-around;
+}
+
+section#reservar .reservar-container .dates .data-entrada {
+  color: #545a40;
+}
+
+section#reservar .reservar-container .ocupation {
+  width: 140px;
+  height: 120px;
+  padding: 5px;
+  background-color: #545a40;
+  border-radius: 6px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+section#reservar .reservar-container .ocupation p {
+  color: #f7f2ed;
+  text-transform: uppercase;
+}
+
+section#reservar .reservar-container .ocupation select {
+  width: 100%;
+  border-radius: 6px;
+  color: #545a40;
+  background-color: #f7f2ed;
+}
+
+section#reservar .reservar-container .container-reservar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 40px;
+}
+
+section#reservar .reservar-container .container-reservar #reservar-banner {
+  width: 146px;
+  height: 31px;
+  background-color: #545a40;
+  color: #f7f2ed;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+}
+
+section#a-reservation a {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #748c1b;
+  color: #f7f2ed;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-top: 2px solid #545a40;
+  border-left: 2px solid #545a40;
+  border-right: 2px solid #545a40;
+  border-radius: 6px 6px 0 0;
+  position: fixed;
+  display: block;
+  z-index: 99;
+  bottom: 0;
+  outline: none;
+  letter-spacing: 1.2rem;
+}
+
+section#a-reservation a:hover {
+  text-decoration: none;
+}
+
+section#login-modal {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+section#login-modal .container-modal {
+  margin: 60px auto 0 auto;
+  padding: 0;
+  width: 240px;
+  height: 350px;
+  background-color: #f7f2ed;
+  border-radius: 6px;
+}
+
+section#login-modal input {
+  border: 1px solid #545a40;
+  border-radius: 6px;
+  margin: 10px 20px;
+  padding: 5px 0;
+}
+
+section#login-modal #submit-login {
+  background-color: #545a40;
+  color: #f7f2ed;
+  width: 182.8px;
+  margin: 10px 20px;
+}
+
+section#login-modal .text-modal {
+  display: flex;
+}
+
+section#login-modal .close-modal {
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+}
+
+footer#footer .footer-down {
+  padding: 30px;
+  flex-direction: column;
+  min-height: 117px;
+  color: #F7F2ED;
+  background-image: linear-gradient(#a58f80, #545a40);
+}
+
+footer#footer .footer-down ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  line-height: 2rem;
+  text-decoration: underline;
+}
+
+footer#footer .footer-down small {
+  margin-top: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  footer#footer {
+    padding-bottom: 56px;
+  }
+}
+
+#myBtn {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 999;
+  border: 2px #545a40 solid;
+  outline: none;
+  background-color: #f7f2ed;
+  color: #545a40;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #545a40;
+  color: #f7f2ed;
+}
+
+main#home section#banner {
+  background: url(../assets/img/banner-photo.jpg) no-repeat center center/cover;
+  width: 100%;
+  min-height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+
+main#home section#welcome {
+  width: 100%;
+  min-height: 100vh;
+}
+
+main#home section#welcome .left-welcome {
+  height: 100%;
+}
+
+main#home section#welcome .left-welcome .enjoy {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main#home section#welcome .left-welcome .enjoy article {
+  text-align: center;
+}
+
+main#home section#welcome .left-welcome .enjoy p {
+  font-size: 1.5rem;
+}
+
+main#home section#welcome .left-welcome .enjoy i {
+  font-size: 2rem;
+  display: inline-block;
+  color: #545a40;
+  margin-bottom: 5px;
+}
+
+main#home section#welcome .left-welcome .enjoy p {
+  line-height: 2rem;
+}
+
+main#home section#welcome .left-welcome .enjoy .title-enjoy span {
+  color: #748c1b;
+}
+
+main#home section#welcome .right-welcome {
+  height: 100%;
+}
+
+main#home section#welcome .right-welcome .title-welcome h2 span {
+  color: #748c1b;
+}
+
+main#home section#welcome .right-welcome .carousel-item {
+  height: 75vh;
+}
+
+main#home section#welcome .right-welcome .carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+main#home section#welcome .right-welcome .explore-welcome {
+  min-height: 30vh;
+  height: 30vh;
+  width: 100%;
+  background-color: #748c1b;
+  line-height: 2rem;
+  letter-spacing: 0.5px;
+}
+
+main#home section#welcome .right-welcome .explore-welcome p {
+  color: #f7f2ed;
+}
+
+main#home section#etorno h2 {
+  margin: 20px 0 70px;
+}
+
+main#home section#etorno .etorno-arti {
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+main#home section#etorno .etorno-arti article {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+main#home section#etorno .etorno-arti article h4, main#home section#etorno .etorno-arti article p {
+  text-align: center;
+}
+
+main#home section#etorno .etorno-arti article i {
+  position: absolute;
+  top: -50px;
+  background-color: #748c1b;
+  color: #f7f2ed;
+  width: 100px;
+  height: 100px;
+  display: inline-block !important;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+  font-size: 2.5rem;
+}
+
+main#home section#etorno .etorno-arti article .etorno-content {
+  height: 600px;
+}
+
+@media screen and (max-width: 991px) {
+  main#home section#etorno .etorno-arti article {
+    height: 300px;
+  }
+}
+
+main#home #section-three {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+main#home #section-three .mapa {
+  border: 2px solid #9eaf5f;
+}
+
+main#home section#reviews-contact {
+  background-color: #f7f2ed;
+  color: #545a40;
+}
+
+main#home section#reviews-contact .recencias {
+  padding: 20px;
+}
+
+main#home section#reviews-contact .contact-dates {
+  padding: 10px;
+  font-size: 18px;
+}
+
+main#home section#reviews-contact .contact-dates i {
+  margin-right: 45px;
+}
+
+main#home section#reviews-contact .social-media {
+  font-size: 30px;
+  color: #545a40;
+  text-align: start;
+  line-height: 2rem;
+}
+
+main#home section#reviews-contact .social-media p {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main#home section#reviews-contact .social-media .social-icons {
+  margin: 0 20px;
+}
+
+main#cuevas .filter-cueva {
+  gap: 150px;
+  margin: 30px 0;
+}
+
+main#cuevas .filter-cueva button {
+  border: none;
+  background-color: #f7f2ed;
+  border: 1px solid #545a40;
+  border-radius: 6px;
+  color: #545a40;
+}
+
+main#cuevas #cuevapicon {
+  background-color: #f7f2ed;
+}
+
+main#cuevas #cuevapicon .icons-picon {
+  flex-wrap: wrap;
+}
+
+main#cuevas #cuevapicon .icons-picon article {
+  text-align: center;
+  max-width: 33.3%;
+}
+
+main#cuevas #cuevapicon .icons-picon article i img {
+  width: 120px;
+  height: 120px;
+  font-size: 1rem;
+  display: inline-block;
+  color: #545a40;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  main#cuevas #cuevapicon img {
+    width: 80px;
+  }
+}
+
+main#cuevas #cuevapicon .disponibilidad section#cuevapicon {
+  background-color: #f7f2ed;
+}
+
+main#cuevas #cuevapicon .disponibilidad span {
+  color: #748c1b;
+}
+
+main#cuevas #cuevapicon .precios .temporada {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+main#cuevas #cuevapicon .precios .precio {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  main#cuevas #cuevapicon #cuevacerro article img, main#cuevas #cuevapicon #cuevapicon article img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container {
+  margin: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container ul {
+  list-style-type: none;
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container .month {
+  padding: 20px 25px 0 25px;
+  margin: 50px 100px;
+  width: 75%;
+  line-height: 2rem;
+  text-align: center;
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container .month ul {
+  margin: 0;
+  padding: 0;
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container .month li {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container .month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container .month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container .weekdays {
+  margin: 0;
+  padding: 10px 35px 20px 35px;
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container .weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #545a40;
+  text-align: center;
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container .days {
+  padding: 10px 35px 20px 35px;
+  margin: 0;
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container .days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #545a40;
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container .days .next-month-dates, main#cuevas #cuevapicon .calender-picon .calender-container .days .prev-month-dates {
+  color: #b3bf87;
+}
+
+main#cuevas #cuevapicon .calender-picon .calender-container .days .active {
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: #748c1b;
+  color: #f7f2ed;
+}
+
+main#cuevas #cuevapicon .calender-picon .marker-avia {
+  gap: 60px;
+  padding-bottom: 20px;
+}
+
+main#cuevas #cuevapicon .calender-picon .marker-avia .available .disp {
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  background-color: rgba(179, 191, 135, 0.5);
+}
+
+main#cuevas #cuevapicon .calender-picon .marker-avia .not-available .no-disp {
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  background-color: rgba(84, 90, 64, 0.5);
+}
+
+main#cuevas #cuevacerro .icons-cerro {
+  flex-wrap: wrap;
+}
+
+main#cuevas #cuevacerro .icons-cerro article {
+  text-align: center;
+}
+
+main#cuevas #cuevacerro .icons-cerro article i img {
+  width: 120px;
+  height: 120px;
+  font-size: 1rem;
+  display: inline-block;
+  color: #545a40;
+  margin-bottom: 5px;
+}
+
+main#cuevas #cuevacerro .disponibilidad section#cuevacerro {
+  background-color: #f7f2ed;
+}
+
+main#cuevas #cuevacerro .disponibilidad span {
+  color: #748c1b;
+}
+
+main#cuevas #cuevacerro .precios .temporada {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+main#cuevas #cuevacerro .precios .precio {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  main#cuevas #cuevacerro #cuevacerro article img, main#cuevas #cuevacerro #cuevacerro article img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+main#succes .text {
+  width: 100%;
+  min-height: 4e0vh;
+}
+
+main#reservation .borderreservar {
+  background-color: #f7f2ed;
+  border: 1px solid #545a40;
+  border-radius: 6px;
+}
+
+main#reservation .borderreservar .pers-dates {
+  line-height: 2rem;
+}
+
+main#reservation .borderreservar .pers-dates input {
+  background-color: #f7f2ed;
+  border: 1px solid #545a40;
+  border-radius: 6px;
+  margin: 10px 0 10px 20px;
+}
+
+main#reservation .reservation-dates {
+  background-color: #f7f2ed;
+  border: 1px solid #545a40;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+main#reservation .reservation-dates hr {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+}
+
+main#reservation .reservation-dates button {
+  margin: 20px 0;
+}
